@@ -1,13 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package sc202.grupo4.tarearecursividad;
+package tareac;
 
-/**
- *
- * @author lawwb
- */
-public class Ejercicio3 {
+import javax.swing.JOptionPane;
+import static tareac.ClaseC.Binario;
+
+
+public class TareaC {
+
+   
+    public static void main(String[] args) {
+      
+         int number = Integer.parseInt(JOptionPane.showInputDialog("Indique un número"));
+    System.out.println("Este " + number + " es un número Binario? " + Binario(number)); 
+        
+    
+        
+    }
     
 }

@@ -1,1 +1,16 @@
+package practicab;
 
+
+public class ClaseB {
+    public static int Total(int numero) {
+	////verifica si el numero no es igual a cero
+	if (numero != 0) {
+	//llamando recursivamente a la función
+	    return numero + Total(numero - 1);
+	}
+	//devolver el total cuando el número se convierte en cero
+	else {
+	      return numero;
+	}
+}
+}

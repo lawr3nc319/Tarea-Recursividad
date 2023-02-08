@@ -4,10 +4,6 @@
  */
 package sc202.grupo4.tarearecursividad;
 
-/**
- *
- * @author lawwb
- */
 public class Ejercicio1 {
     
 }

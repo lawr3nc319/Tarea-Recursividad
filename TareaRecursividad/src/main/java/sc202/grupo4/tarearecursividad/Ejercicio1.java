@@ -11,3 +11,9 @@ package sc202.grupo4.tarearecursividad;
 public class Ejercicio1 {
     
 }
+String cad = JOptionPane.showInputDialog("Ingrese una oración: ");;
+        char[] array = cad.toCharArray();
+        array = sacarConsonantes(0, array);
+        String string = String.valueOf(array);
+        System.out.println(string);
+        Scanner sn = new Scanner (System.in);

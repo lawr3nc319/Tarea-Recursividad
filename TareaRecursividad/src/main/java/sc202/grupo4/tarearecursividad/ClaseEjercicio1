@@ -1,1 +1,7 @@
+package tareaa;
 
+public class Consonante {
+     public static char[] sacarConsonantes(int i, char[] array) {
+        if (i == array.length) {
+            return array;
+        }

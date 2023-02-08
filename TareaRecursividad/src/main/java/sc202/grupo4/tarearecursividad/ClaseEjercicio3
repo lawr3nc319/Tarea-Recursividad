@@ -1,1 +1,12 @@
 
+package tareac; public class ClaseC {
+    public static boolean Binario(int n) {
+    if (n == 0 || n == 1) {
+        return true;
+    } else if (n < 0) {
+        return false;
+    } else {
+        return Binario(n / 2);
+    }
+}
+}
